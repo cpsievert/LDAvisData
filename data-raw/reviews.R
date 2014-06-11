@@ -14,6 +14,6 @@ neg.files <- file.path(path, "neg", neg)
 all.files <- c(pos.files, neg.files)
 txt <- lapply(all.files, readLines)
 nms <- gsub("data-raw/reviews/txt_sentoken", "", all.files)
-txt <- setNames(txt, nms)
+reviews <- setNames(txt, nms)
 
-save(txt, file = "data/reviews.rdata", compress = "xz")
+save(reviews, file = "data/reviews.rdata", compress = "xz")
