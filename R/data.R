@@ -7,3 +7,4 @@
 #' @format A list with element containing a review. The element name can be used to identify
 #' the review 'number' and whether the review was positive/negative.
 #' 
+NULL
