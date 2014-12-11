@@ -15,5 +15,6 @@ all.files <- c(pos.files, neg.files)
 txt <- lapply(all.files, readLines)
 nms <- gsub("data-raw/reviews/txt_sentoken", "", all.files)
 reviews <- setNames(txt, nms)
+reviews <- sapply(reviews, function(x) paste(x, collapse = " "))
 
 save(reviews, file = "data/reviews.rdata", compress = "xz")
