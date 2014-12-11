@@ -16,3 +16,7 @@ Load the movie reviews:
 ```s
 data(reviews, package = "moviereviews")
 ```
+
+## Citation
+
+Bo Pang, Lillian Lee, and Shivakumar Vaithyanathan (2002). Review Polarity Dataset v2.0. Retrived from [http://www.cs.cornell.edu/people/pabo/movie-review-data/](http://www.cs.cornell.edu/people/pabo/movie-review-data/)
