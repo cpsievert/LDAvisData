@@ -1,22 +1,35 @@
-# moviereviews
+# LDAvisData
 
-This package contains data from the [Cornell Movie Review project](http://www.cs.cornell.edu/people/pabo/movie-review-data/)
-as well as scripts to obtain this data using R. This repository is heavily influenced
-by hadley's [babynames](https://github.com/hadley/babynames).
+Data used to supplement the [LDAvis](https://github.com/cpsievert/LDAvis) package.
 
-Install this package from github:
+## Installation
   
 ```s
 # install.packages("devtools")
-devtools::install_github("cpsievert/moviereviews")
+devtools::install_github("cpsievert/LDAvisData")
 ```
 
-Load the movie reviews:
+## Loading
+
+Once you load the library, you can access any of the data objects. For example,
 
 ```s
-data(reviews, package = "moviereviews")
+library("LDAvisData")
+str(AP)
 ```
 
-## Citation
+## Citation Info
 
-Bo Pang, Lillian Lee, and Shivakumar Vaithyanathan (2002). Review Polarity Dataset v2.0. Retrived from [http://www.cs.cornell.edu/people/pabo/movie-review-data/](http://www.cs.cornell.edu/people/pabo/movie-review-data/)
+For a description and citation info for any of the data object, see the help page. For example,
+
+```s
+help(AP)
+```
+
+## All the data
+
+To see list of all the data objects this package contains, use:
+
+```s
+data(package = "LDAvisData")
+```

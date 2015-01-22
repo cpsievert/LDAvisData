@@ -1,8 +1,8 @@
-Package: moviereviews
-Title: Cornell Movie Review Data
+Package: LDAvisData
+Title: Data used to supplement the LDAvis package.
 Version: 0.1
-Authors@R: "Carson Sievert <cpsievert1@gmail.com> [aut, cre]"
-Description: Movie review data provided by Cornell --
-    http://www.cs.cornell.edu/people/pabo/movie-review-data/
+Authors@R: person("Carson", "Sievert", role = c("aut", "cre"), email =
+    "cpsievert1@gmail.com")
+Description: Data used to supplement the LDAvis package.
 License: CC0
 LazyData: true
