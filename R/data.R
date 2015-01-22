@@ -14,6 +14,13 @@
 #' A set of 2000 movie reviews parsed by Pang and Lee (ACL, 2004), originally
 #' gathered from the IMDB archive of the rec.arts.movies.reviews newsgroup
 #'
+#' @format Character vector of length 2000. Each element of that vector contains a single movie review.
+#' @source \url{http://www.cs.cornell.edu/people/pabo/movie-review-data/}
+"reviews"
+
+#' A set of 2000 movie reviews parsed by Pang and Lee (ACL, 2004), originally
+#' gathered from the IMDB archive of the rec.arts.movies.reviews newsgroup
+#'
 #' @format A list elements extracted from a topic model fit to this data
 #' \describe{
 #'   \item{phi}{phi, a matrix with the topic-term distributions}
@@ -23,7 +30,7 @@
 #'   \item{term.frequency}{term.frequency, a numeric vector of observed term frequencies}
 #' }
 #' @source \url{http://www.cs.cornell.edu/people/pabo/movie-review-data/}
-"reviews"
+"MovieReviews"
 
 #' Jeopardy Questions (including category name and answer)
 #'

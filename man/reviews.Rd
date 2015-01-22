@@ -4,14 +4,7 @@
 \alias{reviews}
 \title{A set of 2000 movie reviews parsed by Pang and Lee (ACL, 2004), originally
 gathered from the IMDB archive of the rec.arts.movies.reviews newsgroup}
-\format{A list elements extracted from a topic model fit to this data
-\describe{
-  \item{phi}{phi, a matrix with the topic-term distributions}
-  \item{theta}{theta, a matrix with the document-topic distributions}
-  \item{doc.length}{doc.length, a numeric vector with token counts for each document}
-  \item{vocab}{vocab, a character vector containing the terms}
-  \item{term.frequency}{term.frequency, a numeric vector of observed term frequencies}
-}}
+\format{Character vector of length 2000. Each element of that vector contains a single movie review.}
 \source{
 \url{http://www.cs.cornell.edu/people/pabo/movie-review-data/}
 }
