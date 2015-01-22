@@ -1,8 +1,9 @@
 Package: LDAvisData
 Title: Data used to supplement the LDAvis package.
 Version: 0.1
-Authors@R: person("Carson", "Sievert", role = c("aut", "cre"), email =
-    "cpsievert1@gmail.com")
+Authors@R: c(person("Carson", "Sievert", role = c("aut", "cre"), email =
+    "cpsievert1@gmail.com"), person("Kenny", "Shirley", role = "aut",
+    email = "kshirley@research.att.com"))
 Description: Data used to supplement the LDAvis package.
 License: CC0
 LazyData: true
